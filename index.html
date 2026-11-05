@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Tushar Nile — Data Science, Machine Learning and MLOps portfolio. Explore end-to-end ML projects, skills and GitHub work." />
+  <meta name="theme-color" content="#101114" />
+  <title>Tushar Nile — Data Science · ML · MLOps</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <a class="brand" href="#home" aria-label="Tushar Nile home"><span class="brand-mark">TN</span><span>Tushar Nile</span></a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#about">About</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#experience">Background</a>
+      </nav>
+      <div class="top-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle light and dark theme" title="Toggle theme">☼</button>
+        <a class="nav-cta" href="mailto:ertusharnile@gmail.com">Let's talk <span>↗</span></a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Open navigation">☰</button>
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="hero section-wrap">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="status-dot"></span> OPEN TO DATA & ML OPPORTUNITIES</div>
+          <p class="hero-kicker">DATA SCIENCE <span>·</span> MACHINE LEARNING <span>·</span> MLOPS</p>
+          <h1>Turning data into<br><em>decisions</em> and models<br>into <em>products.</em></h1>
+          <p class="hero-description">I'm <strong>Tushar Nile</strong> — a technology professional building practical machine learning solutions, reproducible pipelines, and deployable applications.</p>
+          <div class="hero-buttons">
+            <a class="button button-primary" href="#projects">Explore my work <span>↘</span></a>
+            <a class="button button-secondary" href="mailto:ertusharnile@gmail.com">Get in touch <span>↗</span></a>
+          </div>
+          <div class="hero-meta">
+            <span><b>01</b> End-to-end ML projects</span>
+            <span><b>02</b> Reproducible workflows</span>
+            <span><b>03</b> Application development</span>
+          </div>
+        </div>
+        <div class="hero-visual" aria-label="Decorative machine learning visualization">
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <div class="visual-center"><span class="center-glyph">∑</span><small>DATA → MODEL</small></div>
+          <div class="node node-a"><span>01</span><b>DATA</b><small>Explore</small></div>
+          <div class="node node-b"><span>02</span><b>LEARN</b><small>Train</small></div>
+          <div class="node node-c"><span>03</span><b>SHIP</b><small>Deploy</small></div>
+          <div class="visual-caption">FROM EXPERIMENT<br>TO PRODUCTION</div>
+        </div>
+      </section>
+
+      <section class="ticker" aria-label="Core focus areas"><div class="ticker-track">
+        <span>PYTHON</span><i>✳</i><span>MACHINE LEARNING</span><i>✳</i><span>DATA SCIENCE</span><i>✳</i><span>MLOPS</span><i>✳</i><span>DEEP LEARNING</span><i>✳</i><span>MODEL DEPLOYMENT</span><i>✳</i>
+      </div></section>
+
+      <section class="section-wrap section-block" id="about">
+        <div class="section-heading"><p class="section-index">01 / ABOUT</p><h2>Curiosity meets<br><em>engineering.</em></h2></div>
+        <div class="about-content">
+          <p class="about-lead">I enjoy working across the machine learning lifecycle — from understanding raw data and building models to packaging applications and creating repeatable workflows.</p>
+          <p>My background in software development helps me approach ML work with an engineering mindset: modular code, clear interfaces, version control, testing, and maintainability. I’m focused on Data Scientist, Machine Learning Engineer, and MLOps opportunities where I can combine analytical thinking with practical implementation.</p>
+          <div class="about-tags"><span>Problem solving</span><span>End-to-end thinking</span><span>Continuous learning</span><span>Software engineering mindset</span></div>
+        </div>
+      </section>
+
+      <section class="section-wrap section-block projects-section" id="projects">
+        <div class="section-topline"><p class="section-index">02 / SELECTED WORK</p><span class="section-note">A closer look at my featured builds</span></div>
+        <div class="section-title-row"><h2>Projects with a<br><em>purpose.</em></h2><a class="text-link" href="https://github.com/tusharaitechie" target="_blank" rel="noreferrer">All repositories <span>↗</span></a></div>
+
+        <article class="project-card project-featured">
+          <div class="project-visual book-visual">
+            <div class="visual-label">RECOMMENDER SYSTEM / 01</div>
+            <div class="book-stack">
+              <div class="book book-back">THE<br>ALGORITHM</div>
+              <div class="book book-mid">DATA<br>STORIES</div>
+              <div class="book book-front"><small>YOUR NEXT READ</small><b>BOOK<br>DISCOVERY</b><span>SIMILARITY ENGINE</span></div>
+            </div>
+            <div class="visual-foot">COLLABORATIVE FILTERING <span>↗</span></div>
+          </div>
+          <div class="project-details">
+            <div class="project-type">FEATURED PROJECT · MLOPS</div>
+            <h3>Book Recommender<br>with MLOps</h3>
+            <p class="project-summary">An end-to-end collaborative-filtering recommendation system that finds books with similar user-rating patterns and serves recommendations through a Streamlit interface.</p>
+            <div class="project-subhead">WHAT I BUILT</div>
+            <ul class="project-points">
+              <li>Prepared Book-Crossing data through ingestion, validation, cleaning, filtering, and joining.</li>
+              <li>Created a book–user rating matrix and converted it to a SciPy CSR sparse matrix.</li>
+              <li>Trained a Scikit-learn <code>NearestNeighbors</code> model using cosine distance.</li>
+              <li>Organized the workflow into reusable pipeline stages and logged experiments with MLflow.</li>
+              <li>Defined reproducible pipeline stages with DVC and included Docker packaging.</li>
+            </ul>
+            <div class="tech-list"><span>Python</span><span>Pandas</span><span>Scikit-learn</span><span>SciPy</span><span>Streamlit</span><span>MLflow</span><span>DVC</span><span>Docker</span></div>
+            <div class="project-links"><a href="https://github.com/tusharaitechie/Book-Recommender-MLOps" target="_blank" rel="noreferrer">View source code ↗</a><span class="project-status">AWS deployment documented as next step</span></div>
+          </div>
+        </article>
+
+        <article class="project-card project-featured reverse">
+          <div class="project-visual visa-visual">
+            <div class="visual-label">PREDICTIVE ANALYTICS / 02</div>
+            <div class="visa-panel">
+              <div class="visa-panel-top"><span>MODEL OUTPUT</span><span class="live-dot"></span></div>
+              <div class="visa-title">Visa outcome<br>prediction</div>
+              <div class="visa-meter"><div class="meter-line"><span></span></div><div class="meter-labels"><small>INPUT FEATURES</small><small>MODEL</small><small>OUTPUT</small></div></div>
+              <div class="visa-result"><span>CLASSIFICATION</span><b>Certified / Denied</b><small>Prediction from trained ML model</small></div>
+            </div>
+            <div class="visual-foot">END-TO-END ML PIPELINE <span>↗</span></div>
+          </div>
+          <div class="project-details">
+            <div class="project-type">FEATURED PROJECT · PRODUCTION-ORIENTED ML</div>
+            <h3>US Visa Approval<br>Prediction</h3>
+            <p class="project-summary">A supervised classification application that estimates an employment-based visa application outcome from employer, employee, job, wage, and location-related features.</p>
+            <div class="project-subhead">WHAT I BUILT</div>
+            <ul class="project-points">
+              <li>Structured the ML lifecycle into data ingestion, schema validation, transformation, training, evaluation, and model pushing.</li>
+              <li>Built reusable components and separate training and prediction pipelines.</li>
+              <li>Connected application data workflows with MongoDB and model/artifact storage components for AWS S3.</li>
+              <li>Packaged the application with Docker and documented an AWS EC2/ECR deployment flow.</li>
+              <li>Included a GitHub Actions workflow for CI/CD automation and an interactive prediction interface.</li>
+            </ul>
+            <div class="tech-list"><span>Python</span><span>Scikit-learn</span><span>Pandas</span><span>FastAPI</span><span>MongoDB</span><span>AWS S3</span><span>EC2</span><span>ECR</span><span>Docker</span><span>GitHub Actions</span></div>
+            <div class="project-links"><a href="https://github.com/tusharaitechie/MLOPs-Production-Ready-Machine-Learning-Project" target="_blank" rel="noreferrer">View source code ↗</a><span class="project-status">Educational prediction system — not an official decision</span></div>
+          </div>
+        </article>
+      </section>
+
+      <section class="section-wrap section-block skills-section" id="skills">
+        <div class="section-topline"><p class="section-index">03 / TOOLKIT</p><span class="section-note">Technologies and concepts I work with</span></div>
+        <div class="section-title-row"><h2>A practical<br><em>toolkit.</em></h2><p class="skills-intro">A broad foundation across data analysis, machine learning, deep learning, APIs, and ML lifecycle tooling.</p></div>
+        <div class="skills-grid">
+          <div class="skill-card"><div class="skill-card-head"><span>01</span><h3>Programming & Data</h3></div><p>Python · SQL · NumPy · Pandas · Jupyter Notebook · Matplotlib · Seaborn · Git · GitHub · VS Code · Postman</p></div>
+          <div class="skill-card"><div class="skill-card-head"><span>02</span><h3>Data Science</h3></div><p>Exploratory Data Analysis · Data Cleaning · Feature Engineering · Feature Selection · Data Visualization · Statistical Analysis</p></div>
+          <div class="skill-card"><div class="skill-card-head"><span>03</span><h3>Machine Learning</h3></div><p>Supervised & Unsupervised Learning · Classification · Regression · Clustering · Decision Trees · Random Forest · XGBoost · SVM · KNN · Ensemble Learning · Cross Validation · Hyperparameter Tuning · Model Evaluation</p></div>
+          <div class="skill-card"><div class="skill-card-head"><span>04</span><h3>Deep Learning & AI</h3></div><p>Neural Networks · CNN · RNN · LSTM · Transformers · NLP · TensorFlow · Keras · Model Training · Model Optimization</p></div>
+          <div class="skill-card"><div class="skill-card-head"><span>05</span><h3>MLOps & Pipelines</h3></div><p>MLflow · DVC · Apache Airflow · Data Pipelines · Training / Validation / Deployment Pipelines · Experiment Tracking · Model & Data Versioning · Automated Retraining</p></div>
+          <div class="skill-card"><div class="skill-card-head"><span>06</span><h3>Cloud, DevOps & Monitoring</h3></div><p>AWS IAM · EC2 · S3 · ECR · Docker · Kubernetes · GitHub Actions · GitLab CI/CD · YAML · JSON · Basic CI/CD · Prometheus · Grafana · Evidently AI · Logging & Alerting</p></div>
+          <div class="skill-card"><div class="skill-card-head"><span>07</span><h3>Application Development</h3></div><p>FastAPI · REST APIs · React.js · Model Serialization · API Testing</p></div>
+        </div>
+      </section>
+
+      <section class="section-wrap section-block background-section" id="experience">
+        <div class="section-heading"><p class="section-index">04 / BACKGROUND</p><h2>Engineering<br><em>perspective.</em></h2></div>
+        <div class="background-content">
+          <div class="background-item"><span class="background-label">EDUCATION</span><div><h3>M.Tech</h3><p>Postgraduate technical education</p></div></div>
+          <div class="background-item"><span class="background-label">SOFTWARE FOUNDATION</span><div><h3>React.js & Frontend Development</h3><p>10+ years of React.js experience, bringing application engineering practices into data and ML projects.</p></div></div>
+          <div class="background-item"><span class="background-label">CURRENT DIRECTION</span><div><h3>Data Science · ML Engineering · MLOps</h3><p>Building hands-on projects that connect data preparation, model development, deployment, and operational workflows.</p></div></div>
+        </div>
+      </section>
+
+      <section class="section-wrap section-block more-work" id="more-work">
+        <div class="section-topline"><p class="section-index">05 / MORE ON GITHUB</p><span class="section-note">Selected repositories from my learning and build journey</span></div>
+        <div class="repo-grid">
+          <a class="repo-card" href="https://github.com/tusharaitechie/python-for-ds-ml" target="_blank" rel="noreferrer"><span>DATA SCIENCE</span><h3>Python for DS & ML</h3><p>Hands-on Python foundations with Pandas, NumPy, Matplotlib, and Scikit-learn.</p><b>Explore repo ↗</b></a>
+          <a class="repo-card" href="https://github.com/tusharaitechie/01.Pract-MLOps-DVC-DataVersion" target="_blank" rel="noreferrer"><span>MLOPS</span><h3>DVC Data Versioning</h3><p>Practical work exploring data versioning and reproducibility with DVC.</p><b>Explore repo ↗</b></a>
+          <a class="repo-card" href="https://github.com/tusharaitechie/02.Pract-MLOps-Complete-ML-Pipeline" target="_blank" rel="noreferrer"><span>MLOPS</span><h3>Complete ML Pipeline</h3><p>Hands-on end-to-end ML pipeline practice with DVC experiments and AWS S3 data versioning.</p><b>Explore repo ↗</b></a>
+          <a class="repo-card" href="https://github.com/tusharaitechie/03.Pract-MLOps-Experiments-with-MLFlow" target="_blank" rel="noreferrer"><span>EXPERIMENT TRACKING</span><h3>MLflow Experiments</h3><p>A focused demonstration of experiment tracking and MLflow concepts.</p><b>Explore repo ↗</b></a>
+          <a class="repo-card" href="https://github.com/tusharaitechie/04.Pract-MLOps-CI" target="_blank" rel="noreferrer"><span>DEVOPS</span><h3>MLOps Continuous Integration</h3><p>Practice repository demonstrating an end-to-end continuous integration workflow.</p><b>Explore repo ↗</b></a>
+          <a class="repo-card" href="https://github.com/tusharaitechie/05.Pract-Docker" target="_blank" rel="noreferrer"><span>CONTAINERS</span><h3>Docker Practice</h3><p>Sample project demonstrating Docker fundamentals and container workflows.</p><b>Explore repo ↗</b></a>
+          <a class="repo-card" href="https://github.com/tusharaitechie/ANN_Project" target="_blank" rel="noreferrer"><span>DEEP LEARNING</span><h3>ANN Project</h3><p>Artificial neural network project with a Streamlit application.</p><b>Explore repo ↗</b></a>
+          <a class="repo-card" href="https://github.com/tusharaitechie/SimpleRNNProj" target="_blank" rel="noreferrer"><span>DEEP LEARNING</span><h3>Simple RNN Project</h3><p>Recurrent neural network project with a Streamlit demo.</p><b>Explore repo ↗</b></a>
+          <a class="repo-card" href="https://github.com/tusharaitechie/LSTM_RNN" target="_blank" rel="noreferrer"><span>DEEP LEARNING</span><h3>LSTM & RNN</h3><p>Hands-on repository exploring sequence modelling with recurrent networks.</p><b>Explore repo ↗</b></a>
+          <a class="repo-card" href="https://github.com/tusharaitechie/Q_and_A_RAG_Document" target="_blank" rel="noreferrer"><span>GENERATIVE AI</span><h3>Document Q&A with RAG</h3><p>Question-answering workflow grounded in document retrieval.</p><b>Explore repo ↗</b></a>
+          <a class="repo-card" href="https://github.com/tusharaitechie/Q_and_A_ChatBot" target="_blank" rel="noreferrer"><span>GENERATIVE AI</span><h3>Q&A Chatbot</h3><p>Conversational question-answering project.</p><b>Explore repo ↗</b></a>
+          <a class="repo-card" href="https://github.com/tusharaitechie/generative-ai" target="_blank" rel="noreferrer"><span>GENERATIVE AI</span><h3>Generative AI Learning</h3><p>Repository collecting generative AI concepts and practical projects.</p><b>Explore repo ↗</b></a>
+          <a class="repo-card" href="https://github.com/tusharaitechie/fastapi" target="_blank" rel="noreferrer"><span>BACKEND</span><h3>FastAPI Practice</h3><p>API development and backend practice using FastAPI.</p><b>Explore repo ↗</b></a>
+          <a class="repo-card" href="https://github.com/tusharaitechie/appgithubaction" target="_blank" rel="noreferrer"><span>CI/CD</span><h3>GitHub Actions App</h3><p>Practice project for understanding GitHub Actions workflows.</p><b>Explore repo ↗</b></a>
+        </div>
+        <div class="github-banner"><div><span class="github-label">CODE • EXPERIMENTS • DOCUMENTATION</span><h3>Explore the full<br>development journey.</h3></div><a class="button button-primary" href="https://github.com/tusharaitechie" target="_blank" rel="noreferrer">Visit GitHub profile ↗</a></div>
+      </section>
+
+      <section class="contact-section" id="contact">
+        <div class="section-wrap contact-inner">
+          <p class="section-index">06 / CONTACT</p>
+          <p class="contact-kicker">HAVE A ROLE OR PROJECT IN MIND?</p>
+          <h2>Let's build<br><em>something useful.</em></h2>
+          <p class="contact-copy">I’m interested in opportunities across Data Science, Machine Learning Engineering, and MLOps. I’d be glad to connect.</p>
+          <a class="contact-email" href="mailto:ertusharnile@gmail.com">ertusharnile@gmail.com <span>↗</span></a>
+          <div class="contact-links"><a href="https://github.com/tusharaitechie" target="_blank" rel="noreferrer">GitHub ↗</a><a href="mailto:ertusharnile@gmail.com">Email ↗</a></div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer section-wrap"><a class="brand" href="#home"><span class="brand-mark">TN</span><span>Tushar Nile</span></a><span>Designed to make the work easy to explore.</span><span>© <span id="year"></span> Tushar Nile</span></footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
