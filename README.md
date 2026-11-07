@@ -1,6 +1,10 @@
-# Tushar Nile  
+<p align="center">
+  <strong>Tushar Nile</strong>
+</p>
 
-## Data Science, Machine Learning & MLOps Portfolio
+<p align="center">
+  <strong>Data Science, Machine Learning & MLOps Portfolio</strong>
+</p>
 
 <p align="center">
   <strong>Data Scientist | Machine Learning Engineer | AI Engineer | MLOps</strong>
