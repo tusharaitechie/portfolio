@@ -1,6 +1,4 @@
-<p align="center">
-   Tushar Nile
-</p>  
+# Tushar Nile  
 
 ## Data Science, Machine Learning & MLOps Portfolio
 
